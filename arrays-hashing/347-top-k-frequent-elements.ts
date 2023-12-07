@@ -19,7 +19,7 @@ Constraints:
     - k is in the range [1, the number of unique elements in the array].
     - It is guaranteed that the answer is unique
 
-Follow up: Time complexity must be better than O9n log n), where n is the array's size
+Follow up: Time complexity must be better than (n log n), where n is the array's size
 
 */
 
