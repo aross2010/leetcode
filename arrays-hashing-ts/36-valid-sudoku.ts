@@ -57,7 +57,7 @@ APPROACH:
 
 - loop through 2D array
 
-    if there is no value ('.') then continue to next cell
+    if there is no value, ('.'), then continue to next cell
 
     create unique strings to add to set that contain its position (row, col or square) w/ the value
 

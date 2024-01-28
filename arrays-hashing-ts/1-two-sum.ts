@@ -19,7 +19,7 @@
 // Output: [0,1]
 
 const twoSum = (nums, target) => {
-  const map = new Map()
+  const map = new Map<number, number>()
 
   for (let i = 0; i < nums.length; i++) {
     // ex. if map has key 9-7, (2), that means 2 + 7 = 9
