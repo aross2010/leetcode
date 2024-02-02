@@ -40,10 +40,6 @@ class main {
             trapped += leftMax < rightMax ? leftMax - height[left++] : rightMax - height[right--];
         }
 
-    
-
-
-
         return trapped;
     }
     
