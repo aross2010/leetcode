@@ -1,3 +1,27 @@
+# Given a string s, return the longest 
+# palindromic
+ 
+# substring
+#  in s.
+
+ 
+
+# Example 1:
+
+# Input: s = "babad"
+# Output: "bab"
+# Explanation: "aba" is also a valid answer.
+# Example 2:
+
+# Input: s = "cbbd"
+# Output: "bb"
+ 
+
+# Constraints:
+
+# 1 <= s.length <= 1000
+# s consist of only digits and English letters.
+
 def longestPalindrome(s: str) -> str:
 
     # O(n^3) solution
@@ -32,7 +56,6 @@ def longestPalindrome(s: str) -> str:
             left -= 1
             right += 1
         
-    print('here')
 
     # even cases
     for i in range(len(s)):
